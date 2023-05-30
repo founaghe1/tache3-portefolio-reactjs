@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { NavBar } from './components/navbar/Navbar';
+import { Banner } from './components/banner/Banner';
 
 function App() {
   return (
     <div className="App">
-      <h3>Tache 3 portefolio reacte js</h3>
+      <NavBar />
+      <Banner />
     </div>
   );
 }
