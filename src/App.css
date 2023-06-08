@@ -616,13 +616,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (min-width: 300px) and (max-width: 429px){
 
   .first{
-    font-size: 125% !important;
+    font-size: 12px !important;
   }
   .second{
-    font-size: 80% !important;
+    font-size: 12px !important;
   }
   .third{
-    font-size: 80% !important;
+    font-size: 12px !important;
+  }
+  .project .nav.nav-pills {
+    width: 90%;
+    
   }
 }
 
