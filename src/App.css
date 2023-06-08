@@ -613,6 +613,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 429px){
+
+  .first{
+    font-size: 125% !important;
+  }
+  .second{
+    font-size: 80% !important;
+  }
+  .third{
+    font-size: 80% !important;
+  }
+}
+
 
 
 
