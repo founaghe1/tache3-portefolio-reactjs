@@ -615,6 +615,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media screen and (min-width: 300px) and (max-width: 429px){
 
+  .bannerImg{
+    margin-top: 20px !important;
+  }
+
   .first{
     font-size: 12px !important;
   }
@@ -626,7 +630,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .project .nav.nav-pills {
     width: 90%;
+  }
+  .p{
+    width: 90% !important;
     
+  }
+  .p2{
+    width: 100% !important;
   }
 }
 

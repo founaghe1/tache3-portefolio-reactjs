@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Mohamed;`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Web Developer", "Web Designer", "front end dev" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h2>{`Hi! I'm Mohamed;`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Web Developer", "Web Designer", "front end dev" ]'><span className="wrap">{text}</span></span></h2>
+                  <p className="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
@@ -66,7 +66,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated    animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" className="mt-md-0 mt-xm-5"/>
+                  <img src={headerImg} alt="Header Img" className="bannerImg"/>
                 </div>}
             </TrackVisibility>
           </Col>
