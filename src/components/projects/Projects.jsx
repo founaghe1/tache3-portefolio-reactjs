@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__slideInUp": ""}>
                 <h2>Projects</h2>
-                <p className="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p className="p">Grâce à mon expertise en développement web, j'ai réalisé avec succès une multitude de projets captivants. De la création de sites web dynamiques à la mise en place de boutiques en ligne performantes, mes réalisations témoignent de ma capacité à concrétiser des idées novatrices.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -80,10 +80,10 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second" >
-                      <p className="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p className="p2">En collaborant étroitement avec mes clients, j'ai su comprendre et répondre à leurs besoins spécifiques, en leur offrant des solutions sur mesure. Mon approche méthodique et ma gestion efficace des délais m'ont permis de livrer des projets de qualité, tout en respectant les exigences et les attentes de mes clients.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third" >
-                      <p className="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p className="p2">En collaborant étroitement avec mes clients, j'ai su comprendre et répondre à leurs besoins spécifiques, en leur offrant des solutions sur mesure. Mon approche méthodique et ma gestion efficace des délais m'ont permis de livrer des projets de qualité, tout en respectant les exigences et les attentes de mes clients.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
